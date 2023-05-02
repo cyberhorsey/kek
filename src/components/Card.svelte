@@ -18,7 +18,7 @@
         tokenomics: 100% to uniswap LP, staggered over 3 days to prevent snipers
         from dumping on you later.
       </p>
-      <div class="card-actions justify-end">
+      <div class="card-actions">
         <button
           class="btn btn-primary"
           on:click={() =>
