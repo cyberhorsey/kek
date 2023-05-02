@@ -1,3 +1,7 @@
+<script>
+  import AddToMm from "./AddToMM.svelte";
+</script>
+
 <div
   class="flex items-center justify-center h-screen"
   style="background-image: url('./bg.jpg');"
@@ -18,9 +22,9 @@
         tokenomics: 100% to uniswap LP, staggered over 3 days to prevent snipers
         from dumping on you later.
       </p>
-      <div class="card-actions">
+      <div class="grid grid-cols-1">
         <button
-          class="btn btn-primary"
+          class="btn btn-primary mt-2"
           on:click={() =>
             window.open(
               "https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0xaafb341adeb6791c1bcca000a9358d77f363f195",
@@ -28,15 +32,16 @@
             )}>Uniswap</button
         >
         <button
-          class="btn btn-accent"
+          class="btn btn-accent mt-2"
           on:click={() => window.open("https://discord.gg/7gvnyP5Y", "_blank")}
           >Discord</button
         >
         <button
-          class="btn btn-secondary"
+          class="btn btn-secondary mt-2"
           on:click={() => window.open("https://twitter.com/kekcash", "_blank")}
           >Twitter</button
         >
+        <AddToMm />
       </div>
     </div>
   </div>
