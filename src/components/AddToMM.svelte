@@ -19,6 +19,6 @@
   }
 </script>
 
-<button class="btn btn-primary mt-2" on:click={async () => await connect()}
+<button class="btn btn-info mt-2" on:click={async () => await connect()}
   >Add to <img src="./mm.png" style="height: 24px; width: 24px;" /></button
 >
