@@ -18,7 +18,9 @@
       <h2 class="card-title">kek cash</h2>
       <p>the new meme coin that does even less than the others</p>
       <p>total supply: two boobies (80,081,358,008,135)</p>
-      <p>tokenomics: 95% to uniswap, 5% for potential bridge/future LPs</p>
+      <p>
+        tokenomics: 95% to uniswap, 5% for potential bridge/liquidity funders
+      </p>
       <div class="grid grid-cols-1">
         <button
           class="btn btn-primary mt-2"
