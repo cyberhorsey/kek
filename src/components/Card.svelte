@@ -32,7 +32,7 @@
         >
         <button
           class="btn btn-accent mt-2"
-          on:click={() => window.open("https://discord.gg/7gvnyP5Y", "_blank")}
+          on:click={() => window.open("https://discord.gg/RVDz9rWN", "_blank")}
           >Discord</button
         >
         <button
