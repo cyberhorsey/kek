@@ -26,8 +26,7 @@
           class="btn btn-primary mt-2"
           on:click={() =>
             window.open(
-              "https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0xaafb341adeb6791c1bcca000a9358d77f363f195",
-              "_blank"
+              "https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0xaafb341adeb6791c1bcca000a9358d77f363f195"
             )}>Uniswap</button
         >
         <button
